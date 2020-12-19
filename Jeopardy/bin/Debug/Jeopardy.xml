@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Jeopardy>
+  <category name = 'People in Computing'>
+    <first points = '100' answer = 'Alan Turing'>Known as the questioner of the human mind, this man is known for helping tell humans and computers apart.</first>
+    <second points = '200' answer = 'Grace Hopper'>This female pioneer of the COBOL computer programming language was an Admiral in the US Navy.</second>
+    <third points = '300' answer = 'Tim Berners-Lee'>Called the father of the world wide web, this man is the director of the W3C.</third>
+    <fourth points = '400' answer = 'Lawrence Lessig'>An American academic and political activist who founded the Creative Commons, this man lobbies for reduced legal restrictions on copyrights and trademarks in the technology sector.</fourth>
+    <fifth points = '500' answer = 'Ada Lovelace'>This woman, known as the world's first computer programmer was also a Countess.</fifth>
+  </category>
+  <category name = 'OO Programming'>
+    <first points = '100' answer = 'Concrete'>A class from which objects can be instatitated</first>
+    <second points = '200' answer = 'Base'>Derived class constructors can call base class constructors with a call to the same name.</second>
+    <third points = '300' answer = 'Derived class'>This class type can effect state changes in base class private members only through public, protected or internal methods.</third>
+    <fourth points = '400' answer = 'Garbage collector'>An invisible process that reclaims an object's memory.</fourth>
+    <fifth points = '500' answer = 'has-a'>A relationship between two objects in which one object is a part of another.</fifth>
+  </category>
+  <category name = 'LINQ'>
+    <first points = '100' answer = 'var'>The keyword for a generic data return type or object.</first>
+    <second points = '200' answer = 'List'>This data type is better and more efficient than an array and often used in LINQ.</second>
+    <third points = '300' answer = 'SQL'>This is the international standard for querying relational databases.</third>
+    <fourth points = '400' answer = 'Count'>This property will return the number of items in a LINQ query result.</fourth>
+    <fifth points = '500' answer = 'Capacity'>This property will return the number of elements available in a List.</fifth>
+  </category>
+  <category name = 'Regular Expressions'>
+    <first points = '100' answer = 'Metacharacter'>These characters have special meaning in a regular expression and often represent concepts for matching.</first>
+    <second points = '200' answer = 'Question mark'>This metacharacter can describe how many times a part of the pattern may occur in a match.</second>
+    <third points = '300' answer = 'Pipe'>This metacharacter is known as the alternation and can match expressions on the left or the right.</third>
+    <fourth points = '400' answer = '\w'>This character class can represent any alphanumeric character or underscore.</fourth>
+    <fifth points = '500' answer = 'System.Text.RegularExpressions'>This namespace must be imported in an application before regular expression classes can be used.</fifth>
+  </category>
+  <category name = 'Data Structures'>
+    <first points = '100' answer = 'Big O Notation'>This concept of data structures measures the efficiency of an algorithm.</first>
+    <second points = '200' answer = 'Leaf'>In a Tree, this is a node with no children.</second>
+    <third points = '300' answer = 'List'>Stacks must inherit from this class.</third>
+    <fourth points = '400' answer = 'Node'>This element of a Linked List can contain properties of any type.</fourth>
+    <fifth points = '500' answer = 'Self-referential'>This technique is used when a class calls it's own constructor.</fifth>
+  </category>
+</Jeopardy>

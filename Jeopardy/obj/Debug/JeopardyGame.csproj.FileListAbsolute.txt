@@ -1,0 +1,14 @@
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.AandQForm.resources
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.GameBoardForm.resources
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.OptionsForm.resources
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\Jeopardy.Properties.Resources.resources
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.SplashForm.resources
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.csproj.GenerateResource.cache
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.csproj.CoreCompileInputs.cache
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\bin\Debug\Jeopardy.exe.config
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\bin\Debug\Jeopardy.exe
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\bin\Debug\Jeopardy.pdb
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\Jeopardy.exe
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\Jeopardy.pdb
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.csprojAssemblyReference.cache
+C:\Users\rache\source\Workspaces\CIS151\CIS151\Jeopardy\Jeopardy\obj\Debug\JeopardyGame.ResultsForm.resources
