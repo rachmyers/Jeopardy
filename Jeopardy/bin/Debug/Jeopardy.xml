@@ -8,7 +8,7 @@
     <fifth points = '500' answer = 'Ada Lovelace'>This woman, known as the world's first computer programmer was also a Countess.</fifth>
   </category>
   <category name = 'OO Programming'>
-    <first points = '100' answer = 'Concrete'>A class from which objects can be instatitated</first>
+    <first points = '100' answer = 'Concrete'>A class from which objects can be instatiated</first>
     <second points = '200' answer = 'Base'>Derived class constructors can call base class constructors with a call to the same name.</second>
     <third points = '300' answer = 'Derived class'>This class type can effect state changes in base class private members only through public, protected or internal methods.</third>
     <fourth points = '400' answer = 'Garbage collector'>An invisible process that reclaims an object's memory.</fourth>

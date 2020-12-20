@@ -80,6 +80,7 @@
             this.label1.Size = new System.Drawing.Size(734, 134);
             this.label1.TabIndex = 0;
             this.label1.Text = "JEOPARDY!";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btCat5100
             // 
@@ -544,58 +545,63 @@
             // 
             // cat0
             // 
-            this.cat0.AutoSize = true;
             this.cat0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat0.ForeColor = System.Drawing.Color.White;
             this.cat0.Location = new System.Drawing.Point(67, 160);
             this.cat0.Name = "cat0";
-            this.cat0.Padding = new System.Windows.Forms.Padding(46, 10, 46, 10);
+            this.cat0.Padding = new System.Windows.Forms.Padding(5);
             this.cat0.Size = new System.Drawing.Size(129, 35);
             this.cat0.TabIndex = 35;
             this.cat0.Text = "label2";
+            this.cat0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cat1
             // 
-            this.cat1.AutoSize = true;
             this.cat1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat1.ForeColor = System.Drawing.Color.White;
             this.cat1.Location = new System.Drawing.Point(196, 160);
             this.cat1.Name = "cat1";
-            this.cat1.Padding = new System.Windows.Forms.Padding(46, 10, 46, 10);
+            this.cat1.Padding = new System.Windows.Forms.Padding(5);
             this.cat1.Size = new System.Drawing.Size(129, 35);
             this.cat1.TabIndex = 36;
             this.cat1.Text = "label2";
+            this.cat1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cat2
             // 
-            this.cat2.AutoSize = true;
             this.cat2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat2.ForeColor = System.Drawing.Color.White;
             this.cat2.Location = new System.Drawing.Point(326, 160);
             this.cat2.Name = "cat2";
-            this.cat2.Padding = new System.Windows.Forms.Padding(46, 10, 46, 10);
+            this.cat2.Padding = new System.Windows.Forms.Padding(5);
             this.cat2.Size = new System.Drawing.Size(129, 35);
             this.cat2.TabIndex = 37;
             this.cat2.Text = "label2";
+            this.cat2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cat3
             // 
-            this.cat3.AutoSize = true;
             this.cat3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat3.ForeColor = System.Drawing.Color.White;
             this.cat3.Location = new System.Drawing.Point(456, 160);
             this.cat3.Name = "cat3";
-            this.cat3.Padding = new System.Windows.Forms.Padding(46, 10, 46, 10);
+            this.cat3.Padding = new System.Windows.Forms.Padding(5);
             this.cat3.Size = new System.Drawing.Size(129, 35);
             this.cat3.TabIndex = 38;
             this.cat3.Text = "label2";
+            this.cat3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cat4
             // 
-            this.cat4.AutoSize = true;
             this.cat4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat4.ForeColor = System.Drawing.Color.White;
             this.cat4.Location = new System.Drawing.Point(586, 160);
             this.cat4.Name = "cat4";
-            this.cat4.Padding = new System.Windows.Forms.Padding(46, 10, 46, 10);
+            this.cat4.Padding = new System.Windows.Forms.Padding(5);
             this.cat4.Size = new System.Drawing.Size(129, 35);
             this.cat4.TabIndex = 39;
             this.cat4.Text = "label2";
+            this.cat4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // GameBoardForm
             // 
