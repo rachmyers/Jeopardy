@@ -96,9 +96,10 @@ namespace JeopardyGame
             var button = (Button)sender;
 
             //Get the category and amount from the button's name using the Substring method
-            string category = button.Name.Substring(5, 1);
+            int categoryNum = Convert.ToInt32(button.Name.Substring(5, 1)) - 1;
+            string category = categoryNum.ToString();
             string amount = button.Name.Substring(6, 3);
-            
+
             //Set button text to empty, remove the event handler, and change cursor style back to default
             button.Text = "";
             button.Click -= bt_Click;

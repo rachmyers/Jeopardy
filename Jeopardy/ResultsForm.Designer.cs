@@ -56,6 +56,7 @@
             // lblCurrentResults
             // 
             this.lblCurrentResults.AutoSize = true;
+            this.lblCurrentResults.ForeColor = System.Drawing.Color.White;
             this.lblCurrentResults.Location = new System.Drawing.Point(39, 119);
             this.lblCurrentResults.Name = "lblCurrentResults";
             this.lblCurrentResults.Size = new System.Drawing.Size(35, 13);
@@ -95,7 +96,7 @@
             this.thirdPlace});
             this.gridGames.Location = new System.Drawing.Point(12, 224);
             this.gridGames.Name = "gridGames";
-            this.gridGames.Size = new System.Drawing.Size(550, 92);
+            this.gridGames.Size = new System.Drawing.Size(550, 220);
             this.gridGames.TabIndex = 5;
             // 
             // GameDate

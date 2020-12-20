@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblAnswer = new System.Windows.Forms.Label();
             this.txtBxResponse = new System.Windows.Forms.TextBox();
             this.cmBoxPlayers = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btSubmit = new System.Windows.Forms.Button();
+            this.lblAnswer = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // lblAnswer
-            // 
-            this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnswer.ForeColor = System.Drawing.Color.White;
-            this.lblAnswer.Location = new System.Drawing.Point(36, 31);
-            this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(70, 26);
-            this.lblAnswer.TabIndex = 0;
-            this.lblAnswer.Text = "label1";
             // 
             // txtBxResponse
             // 
@@ -93,18 +82,31 @@
             this.btSubmit.UseVisualStyleBackColor = true;
             this.btSubmit.Click += new System.EventHandler(this.btSubmit_Click);
             // 
+            // lblAnswer
+            // 
+            this.lblAnswer.BackColor = System.Drawing.Color.Navy;
+            this.lblAnswer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblAnswer.Enabled = false;
+            this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswer.ForeColor = System.Drawing.Color.White;
+            this.lblAnswer.Location = new System.Drawing.Point(41, 22);
+            this.lblAnswer.Multiline = true;
+            this.lblAnswer.Name = "lblAnswer";
+            this.lblAnswer.Size = new System.Drawing.Size(450, 75);
+            this.lblAnswer.TabIndex = 7;
+            // 
             // AandQForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(541, 311);
+            this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.btSubmit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmBoxPlayers);
             this.Controls.Add(this.txtBxResponse);
-            this.Controls.Add(this.lblAnswer);
             this.Name = "AandQForm";
             this.Text = "Jeopardy";
             this.ResumeLayout(false);
@@ -113,12 +115,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblAnswer;
         private System.Windows.Forms.TextBox txtBxResponse;
         private System.Windows.Forms.ComboBox cmBoxPlayers;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btSubmit;
+        private System.Windows.Forms.TextBox lblAnswer;
     }
 }
